@@ -70,6 +70,15 @@ export default class Index extends Component {
     return (
       <div>
         <Head>
+          <title>Pearmill – a marketing studio.</title>
+          <meta name="description" content="We're a marketing studio focused on paid aquistion. We run an agency and build products for marketers." />
+          <meta name="keywords" content="pearmill, marketing agency, facebook ads, google ads, SEO, search engine optimization" />
+          <meta name="robots" content="index,follow" />
+          <meta property="og:title" content="Pearmill – a marketing studio." />
+          <meta property="og:type" content="website" />
+          <meta property="og:description" content="We're a marketing studio focused on paid aquistion. We run an agency and build products for marketers." />
+          <meta property="og:url" content="https://pearmill.com" />
+          <meta property="og:image" content="https://pearmill.com/static/logo-card.png" />
           <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700" rel="stylesheet" />
         </Head>
         <div className='container'>
