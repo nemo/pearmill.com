@@ -78,7 +78,7 @@ export default class Index extends Component {
           <meta property="og:type" content="website" />
           <meta property="og:description" content="We're a marketing studio focused on paid aquistion. We run an agency and build products for marketers." />
           <meta property="og:url" content="https://pearmill.com" />
-          <meta property="og:image" content="https://pearmill.com/static/logo-card.png" />
+          <meta property="og:image" content="https://pearmill.com/static/images/logo-card.png" />
           <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700" rel="stylesheet" />
         </Head>
         <div className='container'>

@@ -128,7 +128,7 @@ var Index = function (_Component) {
       }), _react2.default.createElement('meta', { property: 'og:type', content: 'website', className: 'jsx-2919191268'
       }), _react2.default.createElement('meta', { property: 'og:description', content: 'We\'re a marketing studio focused on paid aquistion. We run an agency and build products for marketers.', className: 'jsx-2919191268'
       }), _react2.default.createElement('meta', { property: 'og:url', content: 'https://pearmill.com', className: 'jsx-2919191268'
-      }), _react2.default.createElement('meta', { property: 'og:image', content: 'https://pearmill.com/static/logo-card.png', className: 'jsx-2919191268'
+      }), _react2.default.createElement('meta', { property: 'og:image', content: 'https://pearmill.com/static/images/logo-card.png', className: 'jsx-2919191268'
       }), _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700', rel: 'stylesheet', className: 'jsx-2919191268'
       })), _react2.default.createElement('div', {
         className: 'jsx-2919191268' + ' ' + 'container'
