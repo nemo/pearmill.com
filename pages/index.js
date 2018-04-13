@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 let slides = {
   agency: {
-    title: "We are a growth and marketing studio, dedicated to paid aquistions. We live and work in NYC.",
+    title: "We are a growth and marketing studio, dedicated to paid acquisition. We live and work in NYC.",
     link: "https://agency.pearmill.com",
     cta_title: "Our Services"
   },
