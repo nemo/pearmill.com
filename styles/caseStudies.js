@@ -24,7 +24,7 @@ export default `
   #case-studies h3 {
     text-align: center;
     max-width: 52rem;
-
+    font-style: normal;
     margin: 0 auto 2rem;
   }
 
