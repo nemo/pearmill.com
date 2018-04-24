@@ -32,6 +32,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _scrollToElement = require('scroll-to-element');
+
+var _scrollToElement2 = _interopRequireDefault(_scrollToElement);
+
 var _head = require('next/dist/lib/head.js');
 
 var _head2 = _interopRequireDefault(_head);
@@ -91,6 +95,16 @@ var IndexPage = function (_Component) {
   }
 
   (0, _createClass3.default)(IndexPage, [{
+    key: 'scroll',
+    value: function scroll(event) {
+      event.preventDefault();
+      var href = (event.target.href || '').split('#')[1];
+
+      (0, _scrollToElement2.default)('#' + href, {
+        align: 'middle'
+      });
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement('div', {
@@ -110,7 +124,7 @@ var IndexPage = function (_Component) {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }, 'Tap into thousands of expert copy-writers, designers, and animators to produce your ads, and pay them when the ads perform.'), _react2.default.createElement('div', { id: 'cta', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }, _react2.default.createElement('a', { className: 'typeform-share btn white', href: 'https://paidgrowth.typeform.com/to/wxdzCL', 'data-mode': 'popup', 'data-hide-headers': 'true', 'data-hide-footer': 'true', target: '_blank', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, 'Get Started'), _react2.default.createElement('a', { href: '#examples', onClick: this.scroll, className: 'btn', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
+      }, 'Get Started'), _react2.default.createElement('a', { href: '#case-studies', onClick: this.scroll, className: 'btn', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }, 'See Examples'))), _react2.default.createElement(_Clients2.default, null), _react2.default.createElement(_Services2.default, null), _react2.default.createElement(_Pricing2.default, null), _react2.default.createElement(_CaseStudies2.default, null), _react2.default.createElement(_Footer2.default, null), _react2.default.createElement(_style2.default, {
         styleId: _global2.default.__hash,
         css: _global2.default

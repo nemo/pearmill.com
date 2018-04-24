@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import scrollToElement from 'scroll-to-element'
 import Head from 'next/head';
 // Components
 import Services from '../components/Services'
@@ -14,6 +15,15 @@ import header from '../styles/header'
 import button from '../styles/button'
 
 export default class IndexPage extends Component {
+
+  scroll (event) {
+    event.preventDefault()
+    let href = (event.target.href || '').split('#')[1];
+
+    scrollToElement(`#${href}`, {
+      align: 'middle'
+    })
+  }
 
   render() {
     return (
@@ -40,7 +50,7 @@ export default class IndexPage extends Component {
 
           <div id='cta'>
             <a className="typeform-share btn white" href='https://paidgrowth.typeform.com/to/wxdzCL' data-mode="popup" data-hide-headers='true' data-hide-footer='true' target="_blank">Get Started</a>
-              <a href='#examples' onClick={this.scroll} className='btn'>See Examples</a>
+              <a href='#case-studies' onClick={this.scroll} className='btn'>See Examples</a>
           </div>
         </Header>
 
