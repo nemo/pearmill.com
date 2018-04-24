@@ -1,0 +1,14 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _variables = require('./variables');
+
+var __styledJsxDefaultExport = new String('section .container,section.container{padding-top:5rem;padding-bottom:5rem}section#footer-cta{text-align:center;padding-top:4.5rem;padding-bottom:4.5rem;background:' + _variables.backgroundColor + '}#case-studies-clip{position:absolute;height:100%;width:100%;top:0;left:0;right:0;bottom:0;z-index:-10;background:' + _variables.backgroundColor + ';-webkit-clip-path:polygon(0 79%,100% 20%,100% 100%,0% 100%);clip-path:polygon(0 79%,100% 20%,100% 100%,0% 100%)}#work-clip{-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);background:white;height:280px}section#work{background:' + _variables.primaryColor + ';background:linear-gradient(0deg,' + _variables.primaryColor + ' 0%,' + _variables.primaryColor + ' 99.9%,white 98%);color:white}section#work *{color:white}');
+
+__styledJsxDefaultExport.__hash = '12539087706';
+__styledJsxDefaultExport.__scoped = 'section[data-jsx-ext~="22539087706"] .container[data-jsx-ext~="22539087706"],section.container[data-jsx-ext~="22539087706"]{padding-top:5rem;padding-bottom:5rem}section#footer-cta[data-jsx-ext~="22539087706"]{text-align:center;padding-top:4.5rem;padding-bottom:4.5rem;background:' + _variables.backgroundColor + '}#case-studies-clip[data-jsx-ext~="22539087706"]{position:absolute;height:100%;width:100%;top:0;left:0;right:0;bottom:0;z-index:-10;background:' + _variables.backgroundColor + ';-webkit-clip-path:polygon(0 79%,100% 20%,100% 100%,0% 100%);clip-path:polygon(0 79%,100% 20%,100% 100%,0% 100%)}#work-clip[data-jsx-ext~="22539087706"]{-webkit-clip-path:polygon(100% 0,0 0,0 100%);clip-path:polygon(100% 0,0 0,0 100%);background:white;height:280px}section#work[data-jsx-ext~="22539087706"]{background:' + _variables.primaryColor + ';background:linear-gradient(0deg,' + _variables.primaryColor + ' 0%,' + _variables.primaryColor + ' 99.9%,white 98%);color:white}section#work[data-jsx-ext~="22539087706"] *[data-jsx-ext~="22539087706"]{color:white}';
+__styledJsxDefaultExport.__scopedHash = '22539087706';
+exports.default = __styledJsxDefaultExport;
