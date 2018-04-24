@@ -102,6 +102,7 @@ var HeaderComponent = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
+      var children = this.props.children;
       var text = this.state.text;
 
       return _react2.default.createElement('header', { id: 'header', 'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
@@ -118,14 +119,7 @@ var HeaderComponent = function (_Component) {
       }, 'Examples')), _react2.default.createElement('li', {
         'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }, _react2.default.createElement('a', { className: 'typeform-share', href: 'https://paidgrowth.typeform.com/to/wxdzCL', 'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, 'Get Started'))), _react2.default.createElement('h1', {
-        'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, 'Animation, Video, and Image ad creative at scale.'), _react2.default.createElement('h2', {
-        'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, 'Tap into thousands of expert copy-writers, designers, and animators to produce your ads, and pay them when the ads perform.'), _react2.default.createElement('div', { id: 'cta', 'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, _react2.default.createElement('a', { className: 'typeform-share btn white', href: 'https://paidgrowth.typeform.com/to/wxdzCL', 'data-mode': 'popup', 'data-hide-headers': 'true', 'data-hide-footer': 'true', target: '_blank', 'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, 'Get Started'), _react2.default.createElement('a', { href: '#examples', onClick: this.scroll, className: 'btn', 'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, 'See Examples'))), _react2.default.createElement(_style2.default, {
+      }, 'Get Started'))), children), _react2.default.createElement(_style2.default, {
         styleId: _header2.default.__scopedHash,
         css: _header2.default.__scoped
       }), _react2.default.createElement(_style2.default, {

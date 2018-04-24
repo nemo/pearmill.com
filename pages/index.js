@@ -10,6 +10,8 @@ import Footer from '../components/Footer'
 // CSS
 import globalCSS from '../styles/global'
 import sections from '../styles/sections'
+import header from '../styles/header'
+import button from '../styles/button'
 
 export default class IndexPage extends Component {
 
@@ -27,7 +29,20 @@ export default class IndexPage extends Component {
           <link rel="shortcut icon" href="https://pearmill.com/static/favicon.ico" />
         </Head>
 
-        <Header />
+        <Header>
+          <h1>
+            Animation, Video, and Image ad creative at scale.
+          </h1>
+
+          <h2>
+            Tap into thousands of expert copy-writers, designers, and animators to produce your ads, and pay them when the ads perform.
+          </h2>
+
+          <div id='cta'>
+            <a className="typeform-share btn white" href='https://paidgrowth.typeform.com/to/wxdzCL' data-mode="popup" data-hide-headers='true' data-hide-footer='true' target="_blank">Get Started</a>
+              <a href='#examples' onClick={this.scroll} className='btn'>See Examples</a>
+          </div>
+        </Header>
 
         <Clients />
         <Services />
@@ -37,15 +52,8 @@ export default class IndexPage extends Component {
 
         <style global jsx>{globalCSS}</style>
         <style jsx>{sections}</style>
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104380641-2"></script>
-        <script dangerouslySetInnerHTML={{__html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-104380641-2');
-        `}} />
+        <style jsx>{header}</style>
+        <style jsx>{button}</style>
       </div>
     )
   }

@@ -31,6 +31,11 @@ section#footer-cta .container {
   color: ${lightTextColor};
 }
 
+#footer a {
+  color: ${lightTextColor};
+  font-weight: bold;
+}
+
 #footer ul, #footer ul li {
   list-style: none;
 }

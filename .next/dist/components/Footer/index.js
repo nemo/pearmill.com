@@ -44,7 +44,9 @@ exports.default = function () {
     'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _grid2.default.__scopedHash + ' ' + _footer2.default.__scopedHash + ' ' + _button2.default.__scopedHash
   }, _react2.default.createElement('li', {
     'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _grid2.default.__scopedHash + ' ' + _footer2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-  }, 'Privacy Policy | Terms of Service'), _react2.default.createElement('li', {
+  }, _react2.default.createElement('a', { href: '/privacy', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _grid2.default.__scopedHash + ' ' + _footer2.default.__scopedHash + ' ' + _button2.default.__scopedHash
+  }, 'Privacy Policy'), ' | ', _react2.default.createElement('a', { href: '/terms', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _grid2.default.__scopedHash + ' ' + _footer2.default.__scopedHash + ' ' + _button2.default.__scopedHash
+  }, 'Terms of Service')), _react2.default.createElement('li', {
     'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _grid2.default.__scopedHash + ' ' + _footer2.default.__scopedHash + ' ' + _button2.default.__scopedHash
   }, '\xA9 Copyright 2018 \u2013 Suto Collective Inc. DBA Pearmill'), _react2.default.createElement('li', {
     'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _grid2.default.__scopedHash + ' ' + _footer2.default.__scopedHash + ' ' + _button2.default.__scopedHash
@@ -61,5 +63,7 @@ exports.default = function () {
   }), _react2.default.createElement(_style2.default, {
     styleId: _button2.default.__scopedHash,
     css: _button2.default.__scoped
+  }), _react2.default.createElement('script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=UA-104380641-2', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _grid2.default.__scopedHash + ' ' + _footer2.default.__scopedHash + ' ' + _button2.default.__scopedHash
+  }), _react2.default.createElement('script', { dangerouslySetInnerHTML: { __html: '\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag(\'js\', new Date());\n\n      gtag(\'config\', \'UA-104380641-2\');\n    ' }, 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _grid2.default.__scopedHash + ' ' + _footer2.default.__scopedHash + ' ' + _button2.default.__scopedHash
   }));
 };

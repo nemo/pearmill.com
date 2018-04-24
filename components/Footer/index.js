@@ -18,7 +18,7 @@ export default () => (
         <div className='col-3'>&nbsp;</div>
         <div className='col-3'>
           <ul>
-            <li>Privacy Policy | Terms of Service</li>
+            <li><a href='/privacy'>Privacy Policy</a> | <a href='/terms'>Terms of Service</a></li>
             <li>&copy; Copyright 2018 – Suto Collective Inc. DBA Pearmill</li>
             <li>Artists are the new song writers.</li>
           </ul>
@@ -30,5 +30,14 @@ export default () => (
     <style jsx>{grid}</style>
     <style jsx>{footer}</style>
     <style jsx>{button}</style>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104380641-2"></script>
+    <script dangerouslySetInnerHTML={{__html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-104380641-2');
+    `}} />
   </section>
 )

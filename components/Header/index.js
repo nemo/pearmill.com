@@ -37,6 +37,7 @@ export default class HeaderComponent extends Component {
   }
 
   render() {
+    const { children } = this.props
     const { text } = this.state
 
     return (
@@ -50,20 +51,8 @@ export default class HeaderComponent extends Component {
             <li><a className='typeform-share' href='https://paidgrowth.typeform.com/to/wxdzCL'>Get Started</a></li>
           </ul>
 
-          <h1>
-            Animation, Video, and Image ad creative at scale.
-          </h1>
-
-          <h2>
-            Tap into thousands of expert copy-writers, designers, and animators to produce your ads, and pay them when the ads perform.
-          </h2>
-
-          <div id='cta'>
-            <a className="typeform-share btn white" href='https://paidgrowth.typeform.com/to/wxdzCL' data-mode="popup" data-hide-headers='true' data-hide-footer='true' target="_blank">Get Started</a>
-              <a href='#examples' onClick={this.scroll} className='btn'>See Examples</a>
-            </div>
-          </div>
-
+          {children}
+        </div>
         <style jsx>{header}</style>
         <style jsx>{button}</style>
       </header>
