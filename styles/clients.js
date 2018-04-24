@@ -1,6 +1,7 @@
 export default `
   #clients h1 {
     text-align: center;
+    font-style: normal;
     padding-bottom: 3rem;
   }
 

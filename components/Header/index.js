@@ -29,8 +29,6 @@ export default class HeaderComponent extends Component {
     event.preventDefault()
     let href = (event.target.href || '').split('#')[1];
 
-    console.log('href', href)
-
     scrollToElement(`#${href}`, {
       align: 'middle'
     })
@@ -48,7 +46,7 @@ export default class HeaderComponent extends Component {
           <ul>
             <li><a href='#work' onClick={this.scroll}>How It Works</a></li>
             <li><a href='#case-studies' onClick={this.scroll}>Examples</a></li>
-            <li><a className='typeform-share' href='https://paidgrowth.typeform.com/to/wxdzCL'>Get Started</a></li>
+            <li><a href='https://agency.pearmill.com'>Agency</a></li>
           </ul>
 
           {children}

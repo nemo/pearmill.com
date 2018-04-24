@@ -93,8 +93,6 @@ var HeaderComponent = function (_Component) {
       event.preventDefault();
       var href = (event.target.href || '').split('#')[1];
 
-      console.log('href', href);
-
       (0, _scrollToElement2.default)('#' + href, {
         align: 'middle'
       });
@@ -118,8 +116,8 @@ var HeaderComponent = function (_Component) {
       }, _react2.default.createElement('a', { href: '#case-studies', onClick: this.scroll, 'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }, 'Examples')), _react2.default.createElement('li', {
         'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, _react2.default.createElement('a', { className: 'typeform-share', href: 'https://paidgrowth.typeform.com/to/wxdzCL', 'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, 'Get Started'))), children), _react2.default.createElement(_style2.default, {
+      }, _react2.default.createElement('a', { href: 'https://agency.pearmill.com', 'data-jsx-ext': _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
+      }, 'Agency'))), children), _react2.default.createElement(_style2.default, {
         styleId: _header2.default.__scopedHash,
         css: _header2.default.__scoped
       }), _react2.default.createElement(_style2.default, {
