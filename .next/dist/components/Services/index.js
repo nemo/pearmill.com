@@ -80,10 +80,10 @@ var ServicesComponent = function (_Component) {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, '1.'), _react2.default.createElement('h3', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'Creative Brief')), _react2.default.createElement('div', { className: 'service', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, 'Brief thousands of creators at once')), _react2.default.createElement('div', { className: 'service', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'You submit a video and text-based creative brief describing the campaign you\u2019d like to run, who you\u2019re targeting and what its goals are.')), _react2.default.createElement('div', { className: 'service', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, 'Submit a templatized creative brief describing the campaign you\u2019d like to run, who you\u2019re targeting and what its goals are.')), _react2.default.createElement('div', { className: 'service', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'It\u2019ll be fluid and we\u2019ll ask you lots of questions about your brand, what it stands for, and any restrictions or inspirations you\u2019d like to convey.'))), _react2.default.createElement('div', { className: 'col-5 service-grid', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
@@ -92,7 +92,7 @@ var ServicesComponent = function (_Component) {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, '2.'), _react2.default.createElement('h3', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'Receive Ads & Assets')), _react2.default.createElement('div', { className: 'service', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, 'Receive Assets and start running')), _react2.default.createElement('div', { className: 'service', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _services2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'We\u2019ll automatically upload the assets and ads to the appropriate platforms, so you can start using them right away!'), _react2.default.createElement('p', {

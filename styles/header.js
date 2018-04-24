@@ -65,6 +65,7 @@ export default `
   padding-top: 5rem;
   text-align: center;
   font-size: 2.5rem;
+  font-style: normal;
   color: white;
 }
 

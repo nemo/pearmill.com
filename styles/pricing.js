@@ -23,7 +23,7 @@ export default `
 
   #pricing .lead {
     text-align: center;
-    max-width: 65rem;
+    max-width: 58rem;
     margin: 0 auto;
   }
 

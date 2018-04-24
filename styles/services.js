@@ -35,7 +35,7 @@ export default `
   }
 
   .service-title h2 {
-    font-size: 9.3rem;
+    font-size: 9rem;
     margin: 0;
 
     color: #F1F1EC;
@@ -43,7 +43,7 @@ export default `
   }
 
   .service-title h3 {
-    font-size: 3.12rem;
+    font-size: 2.8rem;
     margin: 0;
   }
 

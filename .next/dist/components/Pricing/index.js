@@ -70,10 +70,10 @@ var PricingComponent = function (_Component) {
       }, _react2.default.createElement('h2', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'Pricing'), _react2.default.createElement('h3', { className: 'lead', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'All our prices follow a royalty model \u2013\xA0you first pay up-front to receive creative and when you use them in ads (and they perform!), we charge you a percentage of the spend you\'re making on that specific creative.')), _react2.default.createElement('div', { className: 'pricing', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, 'Pay a very low, one-time fee up front to receive ad assets. For the ads that are performing well, a percentage of your spend will be paid as a royalty to our creators.')), _react2.default.createElement('div', { className: 'pricing', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('div', { className: 'container', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('h3', { className: 'plan-name', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'Still-Image Ads'), _react2.default.createElement('div', { className: 'grid', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, 'Static-Image Ads'), _react2.default.createElement('div', { className: 'grid', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('div', { className: 'col-flex', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('div', { className: 'what-you-get', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('h4', {
@@ -84,7 +84,7 @@ var PricingComponent = function (_Component) {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'x Any internal assets you\'d like used.'), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'x Informatio about specific audience that the creative will be used for.'), _react2.default.createElement('h4', {
+      }, 'x Information about specific audience that the creative will be used for.'), _react2.default.createElement('h4', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'You\'ll receive:'), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
@@ -97,11 +97,11 @@ var PricingComponent = function (_Component) {
       }, _react2.default.createElement('span', { className: 'price main', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, '$150')), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'Add ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, '$50'), ' if you need copywriting.', _react2.default.createElement('br', {
+      }, 'Plus ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, '%2'), ' of ad-spend on the ads you receive from us.', _react2.default.createElement('br', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }), 'Alongside ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, '%2'), ' of ad-spend on the ads you receive from us.')))))), _react2.default.createElement('div', { className: 'pricing', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }), 'Add ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, '$50'), ' if you need copywriting.')))))), _react2.default.createElement('div', { className: 'pricing', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('div', { className: 'container', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('h3', { className: 'plan-name', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'Video Ad Edits'), _react2.default.createElement('div', { className: 'grid', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
@@ -117,7 +117,7 @@ var PricingComponent = function (_Component) {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'x Any soundtrack you\'d like to use.'), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'x Informatio about specific audience that the creative will be used for.'), _react2.default.createElement('h4', {
+      }, 'x Information about specific audience that the creative will be used for.'), _react2.default.createElement('h4', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'You\'ll receive:'), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
@@ -130,11 +130,11 @@ var PricingComponent = function (_Component) {
       }, _react2.default.createElement('span', { className: 'price main', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, '$600')), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'Add ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, '$500'), ' if you need music.', _react2.default.createElement('br', {
+      }, 'Plus ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, '%2'), ' of ad-spend on the ads you receive from us.', _react2.default.createElement('br', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }), 'Alongside ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, '%2'), ' of ad-spend on the ads you receive from us.')))))), _react2.default.createElement('div', { className: 'pricing', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }), 'Add ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, '$500'), ' if you need music.')))))), _react2.default.createElement('div', { className: 'pricing', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('div', { className: 'container', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, _react2.default.createElement('h3', { className: 'plan-name', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'Animated Ads'), _react2.default.createElement('div', { className: 'grid', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
@@ -148,7 +148,7 @@ var PricingComponent = function (_Component) {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'x Any soundtrack you\'d like to use.'), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'x Informatio about specific audience that the creative will be used for.'), _react2.default.createElement('h4', {
+      }, 'x Information about specific audience that the creative will be used for.'), _react2.default.createElement('h4', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'You\'ll receive:'), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
@@ -161,11 +161,11 @@ var PricingComponent = function (_Component) {
       }, _react2.default.createElement('span', { className: 'price main', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, '$1,800')), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, 'Add ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, '$500'), ' if you need music.', _react2.default.createElement('br', {
+      }, 'Plus ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, '%2'), ' of ad-spend on the ads you receive from us.', _react2.default.createElement('br', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }), 'Alongside ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, '%2'), ' of ad-spend on the ads you receive from us.')))))), _react2.default.createElement(_style2.default, {
+      }), 'Add ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
+      }, '$500'), ' if you need music.')))))), _react2.default.createElement(_style2.default, {
         styleId: _sections2.default.__scopedHash,
         css: _sections2.default.__scoped
       }), _react2.default.createElement(_style2.default, {

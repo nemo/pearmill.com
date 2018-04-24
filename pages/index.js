@@ -41,11 +41,11 @@ export default class IndexPage extends Component {
 
         <Header>
           <h1>
-            Animation, Video, and Image ad creative at scale.
+            Get beautiful ad creative at scale
           </h1>
 
           <h2>
-            Tap into thousands of expert copy-writers, designers, and animators to produce your ads, and pay them when the ads perform.
+            Tap into thousands of expert copy-writers, designers, and animators to produce your ads and grow your company.
           </h2>
 
           <div id='cta'>

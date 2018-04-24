@@ -7,7 +7,7 @@ import grid from '../../styles/grid'
 export default () => (
   <section id='footer-cta'>
     <div className='container'>
-      <h2>Are you a Creative?</h2>
+      <h2>Are you a Creator?</h2>
 
       <a className="typeform-share btn primary" href='https://paidgrowth.typeform.com/to/gLv4xK' data-mode="popup" data-hide-headers='true' data-hide-footer='true' target="_blank">Join Us</a>
     </div>
