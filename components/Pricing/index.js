@@ -39,7 +39,7 @@ export default class PricingComponent extends Component {
                 <div className='what-you-pay'>
                   <p><span className='price main'>$150</span></p>
                   <p>
-                    Plus <span className='price'>%2</span> of ad-spend on the ads you receive from us.
+                    Plus <span className='price'>%2</span> of ad-spend on the ads you receive from us, upto $500.
                     <br />
                     Add <span className='price'>$50</span> if you need copywriting.</p>
                 </div>
@@ -67,7 +67,7 @@ export default class PricingComponent extends Component {
                 <div className='what-you-pay'>
                   <p><span className='price main'>$600</span></p>
                   <p>
-                    Plus <span className='price'>%2</span> of ad-spend on the ads you receive from us.
+                    Plus <span className='price'>%2</span> of ad-spend on the ads you receive from us, upto $800.
                     <br />
                     Add <span className='price'>$500</span> if you need music.
                   </p>
@@ -95,7 +95,7 @@ export default class PricingComponent extends Component {
                 <div className='what-you-pay'>
                   <p><span className='price main'>$1,800</span></p>
                   <p>
-                    Plus <span className='price'>%2</span> of ad-spend on the ads you receive from us.
+                    Plus <span className='price'>%2</span> of ad-spend on the ads you receive from us, upto $1,000.
                     <br />
                     Add <span className='price'>$500</span> if you need music.</p>
                 </div>

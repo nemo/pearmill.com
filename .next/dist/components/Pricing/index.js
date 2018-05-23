@@ -98,7 +98,7 @@ var PricingComponent = function (_Component) {
       }, '$150')), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'Plus ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, '%2'), ' of ad-spend on the ads you receive from us.', _react2.default.createElement('br', {
+      }, '%2'), ' of ad-spend on the ads you receive from us, upto $500.', _react2.default.createElement('br', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }), 'Add ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, '$50'), ' if you need copywriting.')))))), _react2.default.createElement('div', { className: 'pricing', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
@@ -131,7 +131,7 @@ var PricingComponent = function (_Component) {
       }, '$600')), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'Plus ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, '%2'), ' of ad-spend on the ads you receive from us.', _react2.default.createElement('br', {
+      }, '%2'), ' of ad-spend on the ads you receive from us, upto $800.', _react2.default.createElement('br', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }), 'Add ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, '$500'), ' if you need music.')))))), _react2.default.createElement('div', { className: 'pricing', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
@@ -162,7 +162,7 @@ var PricingComponent = function (_Component) {
       }, '$1,800')), _react2.default.createElement('p', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, 'Plus ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
-      }, '%2'), ' of ad-spend on the ads you receive from us.', _react2.default.createElement('br', {
+      }, '%2'), ' of ad-spend on the ads you receive from us, upto $1,000.', _react2.default.createElement('br', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }), 'Add ', _react2.default.createElement('span', { className: 'price', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _pricing2.default.__scopedHash + ' ' + _grid2.default.__scopedHash
       }, '$500'), ' if you need music.')))))), _react2.default.createElement(_style2.default, {
