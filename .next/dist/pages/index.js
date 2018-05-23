@@ -111,7 +111,7 @@ var IndexPage = function (_Component) {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }, _react2.default.createElement(_head2.default, null, _react2.default.createElement('title', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, 'Pearmill \u2013\xA0Quality Ad Creative at Scale'), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
+      }, 'Pearmill \u2013 Beautiful Ad Creative from Inspiring Creators'), _react2.default.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }), _react2.default.createElement('meta', { property: 'og:title', content: 'Pearmill\xA0\u2013 Quality Ad Creative at Scale', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }), _react2.default.createElement('meta', { property: 'og:type', content: 'website', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }), _react2.default.createElement('meta', { property: 'og:description', content: 'Tap into thousands of expert copy-writers, designers, and animators to produce your ads, and pay them when the ads perform.', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
@@ -120,7 +120,7 @@ var IndexPage = function (_Component) {
       }), _react2.default.createElement('link', { rel: 'shortcut icon', href: 'https://pearmill.com/static/favicon.ico', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       })), _react2.default.createElement(_Header2.default, null, _react2.default.createElement('h1', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
-      }, 'Get beautiful ad creative at scale'), _react2.default.createElement('h2', {
+      }, 'Get beautiful ad creative from inspiring creators'), _react2.default.createElement('h2', {
         'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }, 'Tap into thousands of expert copy-writers, designers, and animators to produce your ads and grow your company.'), _react2.default.createElement('div', { id: 'cta', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash
       }, _react2.default.createElement('a', { className: 'typeform-share btn white', href: 'https://paidgrowth.typeform.com/to/wxdzCL', 'data-mode': 'popup', 'data-hide-headers': 'true', 'data-hide-footer': 'true', target: '_blank', 'data-jsx-ext': _sections2.default.__scopedHash + ' ' + _header2.default.__scopedHash + ' ' + _button2.default.__scopedHash

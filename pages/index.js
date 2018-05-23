@@ -29,7 +29,7 @@ export default class IndexPage extends Component {
     return (
       <div>
         <Head>
-          <title>Pearmill – Quality Ad Creative at Scale</title>
+          <title>Pearmill – Beautiful Ad Creative from Inspiring Creators</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <meta property="og:title" content="Pearmill – Quality Ad Creative at Scale" />
           <meta property="og:type" content="website" />
@@ -41,7 +41,7 @@ export default class IndexPage extends Component {
 
         <Header>
           <h1>
-            Get beautiful ad creative at scale
+            Get beautiful ad creative from inspiring creators
           </h1>
 
           <h2>
