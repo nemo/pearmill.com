@@ -48,6 +48,15 @@ export default css`
     margin-bottom: 15px;
   }
 
+  .pricing .price span.mobile-only {
+    font-size: 1rem;
+    text-align: left;
+
+    width: 100px;
+
+    padding-bottom: 15px;
+  }
+
   .pricing .price {
     font-size: 1.5rem;
     font-weight: bold;
@@ -160,9 +169,28 @@ export default css`
 
   }
 
+  .mobile-only {
+    display: none;
+  }
+
   @media (max-width: 1100px) {
   }
 
   @media (max-width: 600px) {
+    .desktop-only {
+      display: none;
+    }
+
+    .mobile-only {
+      display: inline-block;
+    }
+
+    .slider-container {
+      margin-bottom: 30px;
+    }
+
+    .pricing .price {
+      text-align: left;
+    }
   }
 `

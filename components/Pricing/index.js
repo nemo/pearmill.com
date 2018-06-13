@@ -139,9 +139,9 @@ export default class PricingComponent extends Component {
             <div className='grid pricing-header'>
               <div className='col-2'></div>
               <div className='col-5'></div>
-              <div className='col-1 price-header'># of Creatives</div>
-              <div className='col-1 price-header'>Price / Creative<br/>(monthly)</div>
-              <div className='col-1 price-header'>Max Reward<br />(for performance)</div>
+              <div className='col-1 price-header desktop-only'># of Creatives</div>
+              <div className='col-1 price-header desktop-only'>Price / Creative<br/>(monthly)</div>
+              <div className='col-1 price-header desktop-only'>Max Reward<br />(for performance)</div>
             </div>
 
             <div className='grid pricing-model'>
@@ -181,9 +181,9 @@ export default class PricingComponent extends Component {
                 </div>
 
               </div>
-              <div className='col-1 price'>{sliders.images}x</div>
-              <div className='col-1 price'>{this.pricePerCreative('images').toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
-              <div className='col-1 price'>{imageRewardPrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
+              <div className='col-1 price'><span className='mobile-only'># of Assets</span> {sliders.images}x</div>
+              <div className='col-1 price'><span className='mobile-only'>Price / Creative<br/>(monthly)</span> {this.pricePerCreative('images').toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
+              <div className='col-1 price'><span className='mobile-only'>Max Reward<br/>(for performance)</span> {imageRewardPrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
             </div>
 
             <div className='grid pricing-model'>
@@ -223,9 +223,9 @@ export default class PricingComponent extends Component {
                 </div>
 
               </div>
-              <div className='col-1 price'>{sliders.videos}x</div>
-              <div className='col-1 price'>{this.pricePerCreative('videos').toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
-              <div className='col-1 price'>{videoRewardPrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
+              <div className='col-1 price'><span className='mobile-only'># of Assets</span> {sliders.videos}x</div>
+              <div className='col-1 price'><span className='mobile-only'>Price / Creative<br/>(monthly)</span> {this.pricePerCreative('videos').toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
+              <div className='col-1 price'><span className='mobile-only'>Max Reward<br/>(for performance)</span> {videoRewardPrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
             </div>
 
             <div className='grid pricing-model'>
@@ -265,9 +265,9 @@ export default class PricingComponent extends Component {
                 </div>
 
               </div>
-              <div className='col-1 price'>{sliders.animations}x</div>
-              <div className='col-1 price'>{this.pricePerCreative('animations').toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
-              <div className='col-1 price'>{animationRewardPrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
+              <div className='col-1 price'><span className='mobile-only'># of Assets</span> {sliders.animations}x</div>
+              <div className='col-1 price'><span className='mobile-only'>Price / Creative<br/>(monthly)</span> {this.pricePerCreative('animations').toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
+              <div className='col-1 price'><span className='mobile-only'>Max Reward<br/>(for performance)</span> {animationRewardPrice.toLocaleString('en-US', { style: 'currency', currency: 'USD' })}</div>
             </div>
 
 
