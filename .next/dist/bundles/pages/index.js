@@ -845,7 +845,7 @@ function (_Component) {
         className: "jsx-".concat(sections["a" /* default */].__scopedHash, " jsx-").concat(grid["a" /* default */].__scopedHash, " jsx-").concat(styles_button["a" /* default */].__scopedHash) + " " + 'col-5'
       }), external__react__default.a.createElement("div", {
         className: "jsx-".concat(sections["a" /* default */].__scopedHash, " jsx-").concat(grid["a" /* default */].__scopedHash, " jsx-").concat(styles_button["a" /* default */].__scopedHash) + " " + 'col-1 price-header desktop-only'
-      }, "# of Creatives"), external__react__default.a.createElement("div", {
+      }, "# of Assets"), external__react__default.a.createElement("div", {
         className: "jsx-".concat(sections["a" /* default */].__scopedHash, " jsx-").concat(grid["a" /* default */].__scopedHash, " jsx-").concat(styles_button["a" /* default */].__scopedHash) + " " + 'col-1 price-header desktop-only'
       }, "Price / Creative", external__react__default.a.createElement("br", {
         className: "jsx-".concat(sections["a" /* default */].__scopedHash, " jsx-").concat(grid["a" /* default */].__scopedHash, " jsx-").concat(styles_button["a" /* default */].__scopedHash)

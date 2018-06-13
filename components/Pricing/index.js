@@ -139,7 +139,7 @@ export default class PricingComponent extends Component {
             <div className='grid pricing-header'>
               <div className='col-2'></div>
               <div className='col-5'></div>
-              <div className='col-1 price-header desktop-only'># of Creatives</div>
+              <div className='col-1 price-header desktop-only'># of Assets</div>
               <div className='col-1 price-header desktop-only'>Price / Creative<br/>(monthly)</div>
               <div className='col-1 price-header desktop-only'>Max Reward<br />(for performance)</div>
             </div>
