@@ -541,10 +541,10 @@ var grid = __webpack_require__(4);
 var sections = __webpack_require__(3);
 
 // CONCATENATED MODULE: ./styles/clients.js
-var _defaultExport = ["#clients h1{text-align:center;font-style:normal;padding-bottom:3rem;}", "#clients .col-1{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;padding:0 10px;}", "#clients .client-logo{min-height:60px;background-repeat:no-repeat;background-size:contain;background-position:center;}"];
-_defaultExport.__hash = "951507357";
-_defaultExport.__scoped = ["#clients.jsx-1612768668 h1.jsx-1612768668{text-align:center;font-style:normal;padding-bottom:3rem;}", "#clients.jsx-1612768668 .col-1.jsx-1612768668{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;padding:0 10px;}", "#clients.jsx-1612768668 .client-logo.jsx-1612768668{min-height:60px;background-repeat:no-repeat;background-size:contain;background-position:center;}"];
-_defaultExport.__scopedHash = "1612768668";
+var _defaultExport = ["#clients h1{text-align:center;font-style:normal;padding-bottom:3rem;}", "#clients .col-1{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;padding:0 10px;margin-bottom:25px;}", "#clients .client-logo{min-height:60px;background-repeat:no-repeat;background-size:contain;background-position:center;}"];
+_defaultExport.__hash = "432848318";
+_defaultExport.__scoped = ["#clients.jsx-353378943 h1.jsx-353378943{text-align:center;font-style:normal;padding-bottom:3rem;}", "#clients.jsx-353378943 .col-1.jsx-353378943{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;padding:0 10px;margin-bottom:25px;}", "#clients.jsx-353378943 .client-logo.jsx-353378943{min-height:60px;background-repeat:no-repeat;background-size:contain;background-position:center;}"];
+_defaultExport.__scopedHash = "353378943";
 /* harmony default export */ var clients = (_defaultExport);
 // CONCATENATED MODULE: ./components/Clients/index.js
 
@@ -560,13 +560,57 @@ _defaultExport.__scopedHash = "1612768668";
     className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'container'
   }, external__react__default.a.createElement("h1", {
     className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash)
-  }, "Our creatives have served the very best"), external__react__default.a.createElement("div", {
+  }, "Our creators have served the very best"), external__react__default.a.createElement("div", {
     className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'grid'
   }, external__react__default.a.createElement("div", {
     className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'col-1'
   }, external__react__default.a.createElement("div", {
     style: {
+      backgroundImage: 'url(/static/clients/nytimes.png)'
+    },
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'client-logo'
+  })), external__react__default.a.createElement("div", {
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'col-1'
+  }, external__react__default.a.createElement("div", {
+    style: {
+      backgroundImage: 'url(/static/clients/dollar-shave-club.png)'
+    },
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'client-logo'
+  })), external__react__default.a.createElement("div", {
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'col-1'
+  }, external__react__default.a.createElement("div", {
+    style: {
+      backgroundImage: 'url(/static/clients/davidstea.png)'
+    },
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'client-logo'
+  })), external__react__default.a.createElement("div", {
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'col-1'
+  }, external__react__default.a.createElement("div", {
+    style: {
+      backgroundImage: 'url(/static/clients/toyota.png)'
+    },
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'client-logo'
+  })), external__react__default.a.createElement("div", {
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'col-1'
+  }, external__react__default.a.createElement("div", {
+    style: {
       backgroundImage: 'url(/static/clients/skype.png)'
+    },
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'client-logo'
+  })), external__react__default.a.createElement("div", {
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'col-1'
+  }, external__react__default.a.createElement("div", {
+    style: {
+      backgroundImage: 'url(/static/clients/aptible.png)'
+    },
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'client-logo'
+  }))), external__react__default.a.createElement("div", {
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'grid'
+  }, external__react__default.a.createElement("div", {
+    className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'col-1'
+  }, external__react__default.a.createElement("div", {
+    style: {
+      backgroundImage: 'url(/static/clients/textline.png)'
     },
     className: "jsx-".concat(grid["a" /* default */].__scopedHash, " jsx-").concat(clients.__scopedHash, " jsx-").concat(sections["a" /* default */].__scopedHash) + " " + 'client-logo'
   })), external__react__default.a.createElement("div", {

@@ -13,6 +13,7 @@ export default css`
     justify-content: center;
 
     padding: 0 10px;
+    margin-bottom: 25px;
   }
 
   #clients .client-logo {
