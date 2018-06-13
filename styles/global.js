@@ -1,5 +1,6 @@
+import css from 'styled-jsx/css'
 import { darkTextColor } from './variables'
-export default `
+export default css`
 
 @import url("/static/css/normalize.css");
 @import url("/static/css/animate.css");

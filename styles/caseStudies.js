@@ -1,6 +1,7 @@
+import css from 'styled-jsx/css'
 import { borderColor } from './variables'
 
-export default `
+export default css`
   #case-studies {
     position: relative;
     overflow: hidden;

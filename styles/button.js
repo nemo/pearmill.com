@@ -1,6 +1,7 @@
+import css from 'styled-jsx/css'
 import { primaryColor, borderColor } from './variables'
 
-export default `
+export default css`
   .btn {
     display: inline-block;
     font-family: 'Avenir Medium';

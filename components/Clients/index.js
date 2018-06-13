@@ -10,10 +10,10 @@ export default () => (
       <div className='grid'>
         <div className='col-1'>
           <div className='client-logo' style={{
-            backgroundImage: 'url(/static/clients/humi.png)'
+            backgroundImage: 'url(/static/clients/skype.png)'
           }}>
+          </div>
         </div>
-      </div>
         <div className='col-1'>
           <div className='client-logo' style={{
             backgroundImage: 'url(/static/clients/stdlib.png)'
@@ -42,6 +42,12 @@ export default () => (
           <div className='client-logo' style={{
             backgroundImage: 'url(/static/clients/grokker.png)'
           }}>
+          </div>
+        </div>
+        <div className='col-1'>
+          <div className='client-logo' style={{
+              backgroundImage: 'url(/static/clients/humi.png)'
+            }}>
           </div>
         </div>
       </div>

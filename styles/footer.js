@@ -1,6 +1,7 @@
+import css from 'styled-jsx/css'
 import { primaryColor, lightTextColor, darkTextColor } from './variables'
 
-export default `
+export default css`
 
 section#footer-cta {
   margin-bottom: 0px;

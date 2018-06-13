@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import scrollToElement from 'scroll-to-element'
 import Head from 'next/head';
+
 // Components
 import Services from '../components/Services'
 import CaseStudies from '../components/CaseStudies'

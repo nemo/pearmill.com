@@ -1,6 +1,7 @@
+import css from 'styled-jsx/css'
 import { primaryColor, borderColor, backgroundColor } from './variables'
 
-export default `
+export default css`
   section .container, section.container {
     padding-top: 5rem;
     padding-bottom: 5rem;

@@ -1,4 +1,6 @@
-export default `
+import css from 'styled-jsx/css'
+
+export default css`
   .service-icons {
     display: flex;
     flex-direction: column;
@@ -43,8 +45,9 @@ export default `
   }
 
   .service-title h3 {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
     margin: 0;
+    padding-right: 10px;
   }
 
   .service.col-5 {
@@ -61,7 +64,7 @@ export default `
 
   .service {
     margin: 0 0;
-    padding: 0 10px;
+    padding: 0 10px 0 0;
   }
 
   .service h4 {

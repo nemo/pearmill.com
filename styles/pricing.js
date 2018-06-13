@@ -1,6 +1,7 @@
-import { primaryColor, backgroundColor, borderColor } from './variables'
+import css from 'styled-jsx/css'
+import { primaryColor, backgroundColor, borderColor, lightTextColor } from './variables'
 
-export default `
+export default css`
   section#pricing {
     background: white;
   }
@@ -27,28 +28,97 @@ export default `
     margin: 0 auto;
   }
 
+  #pricing .secondary-lead {
+    font-size: 0.9rem;
+
+    color: ${borderColor};
+
+    margin-top: 0px;
+  }
+
   .pricing > * {
     /* color: white; */
   }
 
   .pricing .plan-name {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-style: normal;
     margin-top: 0px;
+    margin-bottom: 15px;
   }
 
   .pricing .price {
     font-size: 1.5rem;
     font-weight: bold;
     font-style: normal;
+    text-align: center;
+  }
+
+  .pricing .slider-container {
+    padding: 0px 15px;
+  }
+
+  .pricing .price-header {
+    text-align: center;
+  }
+
+  .pricing .pricing-model {
+    padding-top: 15px;
   }
 
   .pricing .price.main {
     font-size: 8rem;
   }
 
-  .pricing .what-you-get {
+  .pricing .sub-total {
+    align-items: center;
+  }
+
+  .pricing .btn-container {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing .sub-total-header {
+    padding-top: 50px;
+  }
+
+  .pricing .sub-total-header .plan-name {
+    text-align: center !important;
+  }
+
+  .pricing .pricing-header {
+    padding-top: 15px;
+  }
+
+  .pricing .sub-total .plan-name {
+    padding-right: 15px;
+    text-align: right;
+
+    margin-bottom: 0;
+  }
+
+  .pricing .sub-total .description {
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .rc-slider-dot-active {
+    border-color: ${primaryColor} !important;
+  }
+
+  .rc-slider-track {
+    background-color: ${primaryColor} !important;
+  }
+  .rc-slider-handle {
+    border-color: ${primaryColor} !important;
+    background-color: ${primaryColor} !important;
+  }
+
+  .pricing .what-you-get:first-child {
     border-right: 1px solid ${borderColor};
   }
 
@@ -63,7 +133,8 @@ export default `
   }
 
   .pricing .what-you-get, .pricing .what-you-pay {
-    padding: 0.05rem 0.8rem;
+    margin-top: 40px;
+    padding: 0rem 0.8rem 1.2rem;
     height: 100%;
     /* background: ${backgroundColor}; */
     /* border-radius: 0.3rem; */

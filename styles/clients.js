@@ -1,4 +1,6 @@
-export default `
+import css from 'styled-jsx/css'
+
+export default css`
   #clients h1 {
     text-align: center;
     font-style: normal;
@@ -9,6 +11,8 @@ export default `
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    padding: 0 10px;
   }
 
   #clients .client-logo {

@@ -1,6 +1,7 @@
+import css from 'styled-jsx/css'
 import { primaryColor } from './variables'
 
-export default `
+export default css`
 
 #header {
   padding-top: 5.9rem;
