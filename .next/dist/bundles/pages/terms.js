@@ -905,7 +905,7 @@ function (_Component) {
         className: "jsx-".concat(sections["a" /* default */].__scopedHash, " jsx-").concat(grid["a" /* default */].__scopedHash, " jsx-").concat(styles_button["a" /* default */].__scopedHash) + " " + 'plan-name'
       }, "Static-Image Ads"), external__react__default.a.createElement("p", {
         className: "jsx-".concat(sections["a" /* default */].__scopedHash, " jsx-").concat(grid["a" /* default */].__scopedHash, " jsx-").concat(styles_button["a" /* default */].__scopedHash) + " " + 'secondary-lead'
-      }, "Image ads, story or carousel ads optimzied for conversion for all major platforms.")), external__react__default.a.createElement("div", {
+      }, "Image ads, story or carousel ads optimized for conversion for all major platforms.")), external__react__default.a.createElement("div", {
         className: "jsx-".concat(sections["a" /* default */].__scopedHash, " jsx-").concat(grid["a" /* default */].__scopedHash, " jsx-").concat(styles_button["a" /* default */].__scopedHash) + " " + 'col-5 slider-container'
       }, external__react__default.a.createElement(Slider__default.a, {
         min: 0,
@@ -972,7 +972,7 @@ function (_Component) {
         className: "jsx-".concat(sections["a" /* default */].__scopedHash, " jsx-").concat(grid["a" /* default */].__scopedHash, " jsx-").concat(styles_button["a" /* default */].__scopedHash) + " " + 'plan-name'
       }, "Video Ad Edits"), external__react__default.a.createElement("p", {
         className: "jsx-".concat(sections["a" /* default */].__scopedHash, " jsx-").concat(grid["a" /* default */].__scopedHash, " jsx-").concat(styles_button["a" /* default */].__scopedHash) + " " + 'secondary-lead'
-      }, "Video ads, cut from raw-footage you provide, optomized for conversion.")), external__react__default.a.createElement("div", {
+      }, "Video ads, cut from raw-footage you provide, optimized for conversion.")), external__react__default.a.createElement("div", {
         className: "jsx-".concat(sections["a" /* default */].__scopedHash, " jsx-").concat(grid["a" /* default */].__scopedHash, " jsx-").concat(styles_button["a" /* default */].__scopedHash) + " " + 'col-5 slider-container'
       }, external__react__default.a.createElement(Slider__default.a, {
         min: 0,

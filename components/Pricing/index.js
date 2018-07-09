@@ -147,7 +147,7 @@ export default class PricingComponent extends Component {
             <div className='grid pricing-model'>
               <div className='col-2'>
                 <h3 className='plan-name'>Static-Image Ads</h3>
-                <p className='secondary-lead'>Image ads, story or carousel ads optimzied for conversion for all major platforms.</p>
+                <p className='secondary-lead'>Image ads, story or carousel ads optimized for conversion for all major platforms.</p>
               </div>
               <div className='col-5 slider-container'>
                 <Slider
@@ -189,7 +189,7 @@ export default class PricingComponent extends Component {
             <div className='grid pricing-model'>
               <div className='col-2'>
                 <h3 className='plan-name'>Video Ad Edits</h3>
-                <p className='secondary-lead'>Video ads, cut from raw-footage you provide, optomized for conversion.</p>
+                <p className='secondary-lead'>Video ads, cut from raw-footage you provide, optimized for conversion.</p>
               </div>
               <div className='col-5 slider-container'>
                 <Slider
